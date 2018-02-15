@@ -1,5 +1,5 @@
 const {blue} = require('chalk');
-const {print} = require('printer');
+const {print} = require('printer-test-gitsubmodules');
 
 let core = {};
 
