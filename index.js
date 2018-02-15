@@ -1,4 +1,4 @@
-const {blue} = require('chalk');
+const {blue, green} = require('chalk');
 const {print} = require('printer-test-gitsubmodules');
 
 let core = {};
@@ -6,6 +6,10 @@ let core = {};
 (core => {
     core.printBlueText = text => {
         print(blue(text));
+    };
+
+    core.printGreenText = text => {
+        print(green(text));
     };
 })(core);
 
